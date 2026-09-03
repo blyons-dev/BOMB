@@ -1,0 +1,43 @@
+# KiCad lock files
+*.lck
+
+# KiCad backup files
+*~
+*.bak
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak
+
+# KiCad backup directories
+*-backups/
+
+# KiCad cache and generated metadata
+fp-info-cache
+_sym-lib-table
+sym-lib-table.bak
+
+# Generated fabrication and plot outputs
+gerbers/
+gerber/
+plots/
+plot/
+drill/
+drills/
+manufacturing/
+fabrication/
+
+# 3D viewer/export files
+*.step
+*.stp
+*.wrl
+*.stl
+
+# Autorouter and temporary files
+*.dsn
+*.ses
+*.temp
+
+# Operating-system files
+.DS_Store
+Thumbs.db
